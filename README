@@ -1,0 +1,29 @@
+YayPonies Comics Toolkit 1.0
+
+What it does :
+It create PDF and CBZ files from the images files available in the extracted epubs.
+---
+
+How it work :
+When you launch ComicsToolKit.bat, it will ask multiple question. images file 
+(cover.jpeg, img_002.jpeg,...) should be put in the work folder before, also check if
+002.jpg and pdf.png is present !
+
+---
+
+What you need to know before launching it :
+
+It will ask for filename, for both PDF and CBZ, under YayPonies standard, filename are :
+YP-FORMAT-SERIESCOMIC00.format, exemple, Friends forever 9 will be YP-PDF-FFCOMIC09.pdf
+and YP-CBZ-FFCOMIC09.cbz - and main series 23 will be YP-PDF-COMIC23.pdf and YP-CBZ-COMIC23.cbz
+
+It will ask you to list filename, PDF can't autodetect files to include, if you look to
+filename list.txt, you'll see a list ready to be copy/pasted, if there is 25 pages, then
+with pdf.png, there will be 26 pages, so you will need, when asked, to copy/paste from that list:
+"work\001.jpg work\pdf.png work\003.jpg work\004.jpg work\005.jpg work\006.jpg work\007.jpg work\008.jpg work\009.jpg work\010.jpg work\011.jpg work\012.jpg work\013.jpg work\014.jpg work\015.jpg work\016.jpg work\017.jpg work\018.jpg work\019.jpg work\020.jpg work\021.jpg work\022.jpg work\023.jpg work\024.jpg work\025.jpg work\026.jpg"
+If there is 4 pages, so 5 with pdf.png, you'll need to copy/paste "work\001.jpg work\pdf.png work\003.jpg work\004.jpg work\005.jpg"
+
+It will ask you for the title and authors of the comic, YOU NEED TO WRITE THEM BETWEEN " "
+Typing : "My Little Pony, Friendship is Magic #23" : is correct
+Typing : My Little Pony, Friendship is Magic #23 : is INCORRECT !!!
+Please look at previous release if you don't know how to type title,authors.
